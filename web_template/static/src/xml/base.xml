@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+
+  <t t-name="FieldTemplate">
+    <div class="oe_form_field_template"
+         t-att-style="widget.node.attrs.style">
+    </div>
+  </t>
+
+  <t t-name="FieldM2OTemplate">
+    <div class="oe_form_field_m2o_template"
+         t-att-style="widget.node.attrs.style">
+    </div>
+  </t>
+
+  <t t-name="FieldO2MTemplate">
+    <div class="oe_form_field_o2m_template"
+         t-att-style="widget.node.attrs.style">
+    </div>
+  </t>
+
+  <t t-name="FieldM2MTemplate">
+    <div class="oe_form_field_m2m_template"
+         t-att-style="widget.node.attrs.style">
+    </div>
+  </t>
+
+</templates>
