@@ -27,10 +27,12 @@
 .markdown-body {
   font-size: 15px;
   line-height: 1.7;
+  background-color: #eee !important;
   /* overflow: hidden; */
 }
 .markdown-body > *:first-child {
   margin-top: 0 !important;
+  background-color: #eee;
 }
 .markdown-body > *:last-child {
   margin-bottom: 0 !important;
@@ -60,6 +62,7 @@
   line-height: 1.7;
   cursor: text;
   position: relative;
+  color: #444 !important;
 }
 .markdown-body h1 .octicon-link,
 .markdown-body h2 .octicon-link,
@@ -106,7 +109,7 @@
 }
 .markdown-body h1 {
   font-size: 1.3em;
-  color: #893b74;
+  color: #444;
 }
 .markdown-body h2 {
   font-size: 1.3em;
