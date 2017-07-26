@@ -19,8 +19,8 @@
 ##############################################################################
 
 {
-    'name': 'web_widget_text_markdown',
-    'version': '8.0.1.0.0',
+    'name': 'Markdown text widget',
+    'version': '10.0.1.0.0',
     'author': "Sudokeys,Odoo Community Association (OCA)",
     'maintainer': 'Sudokeys',
     'category': '',
@@ -31,7 +31,7 @@
     "qweb": ["static/src/xml/bootstrap_markdown.xml",
              ],
     'demo': [],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False
 }
